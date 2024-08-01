@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -16,9 +15,10 @@ Then, the output should be:
 Hint: a+aa+aaa+aaaa --> a + a ^ 1 + a ^ 2 + a ^ 3 + a ^ 4
 */
 
-func main() {
-	fmt.Println(Ex5(9))
-}
+// func main() {
+// 	fmt.Println(Ex5(9))
+// }
+
 func Ex5(a int) int {
 	var result = 0
 	for i:=1; i < 5; i++ {
