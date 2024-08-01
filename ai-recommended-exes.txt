@@ -1,0 +1,31 @@
+1. Text Processing
+Exercise: Write a program to analyze a text file and count the frequency of words. This exercise can help students practice string manipulation and data structure usage in both languages.
+
+2. Simple Calculator
+Exercise: Implement a basic calculator that can perform addition, subtraction, multiplication, and division. This exercise is great for teaching arithmetic operations and input/output handling.
+
+3. File Compression
+Exercise: Create a simple file compression/decompression tool. This can involve creating a zip-like functionality where files are compressed into a single archive file. This exercise showcases file I/O and potentially introduces concepts of data encoding/decoding.
+
+4. Database Interaction
+Exercise: Develop a program that interacts with a local database (SQLite for Python, SQL for Golang) to perform CRUD (Create, Read, Update, Delete) operations. This exercise is useful for teaching database interaction and query construction.
+
+5. Simple Web application
+Exercise: Build a web application that shows a html file an allows users to insract with that, like entering age and name.
+
+6. Networking Basics
+Exercise: Implement a simple client-server model where the client sends a message to the server, and the server responds with a confirmation. This exercise is good for teaching socket programming and basic networking concepts.
+
+7. Unit Conversion
+Exercise: Create a program that converts temperatures (Celsius to Fahrenheit, Fahrenheit to Celsius) and distances (miles to kilometers, kilometers to miles). This exercise can introduce students to the basics of unit conversion and conditional statements.
+
+8. Regular Expressions
+Exercise: Write a program that uses regular expressions to validate email addresses or phone numbers. This exercise is beneficial for teaching regex patterns and string matching.
+
+9. Sorting Algorithms
+Exercise: Implement a sorting algorithm (e.g., bubble sort, quicksort) to sort a list of integers. This exercise is essential for teaching algorithm design and comparison.
+
+10. Matrix Operations
+Exercise: Perform basic matrix operations like addition, subtraction, multiplication, and finding the determinant. This exercise can help students practice array manipulation and mathematical computations.
+
+These exercises are designed to be adaptable to both Python and Golang, focusing on foundational programming concepts and skills that are transferable between the two languages.

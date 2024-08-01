@@ -20,7 +20,7 @@
 
 # Solution
 import math
-
+__name__ = "robut"
 class Robut:
     def __init__(self, init_cordinate: tuple=None) -> None:
         self.init_cordinate = (0, 0) if init_cordinate is None else init_cordinate
@@ -52,6 +52,7 @@ r = Robut()
 r.move_down(10)
 r.move_right(20)
 print(r)
+print(abs.__doc__)
     
     
     
