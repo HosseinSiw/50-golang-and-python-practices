@@ -1,7 +1,16 @@
-# This exercise 
-text = input("Enter you msg: ")
+# Question: Write a programm that gives an input from the console and calculates the frequency of words within that.
 
-def check_words(text :str = 'Hello Hello golang py py python py') -> dict:
+
+# Hint: For example you give "Hello Hello World Python Rust World Python" as the input
+# then the output should be:
+# [Hello]: 2
+# [World]: 2
+# [Python]: 2
+# [Rust]: 1
+
+text = input("Enter your msg: ")
+
+def check_words(text :str) -> dict:
     # Creating a list of seperate words
     text = text.split(" ")
     set_of_words = set(text)  
@@ -12,6 +21,10 @@ def check_words(text :str = 'Hello Hello golang py py python py') -> dict:
     for word in text:
         if word in set_of_words:
             d[word] += 1
-    return d
+    
+    for k, v in d.items():
+        print(f"[{k}]: {v}", )
 
-print(check_words()) 
+
+if __name__ == "__main__":
+    check_words(text) 
