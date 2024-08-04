@@ -1,4 +1,5 @@
-# A very simple web application that can be used for the encryption and decryption of data.
+# A very simple web application that can be used for the encryption and decryption of data. <br>
+## In this project, the caesar cipher algorithm has been used\
 ### Usage:
   go run . 
   navigate to the localhost:8080 via your browser.\
