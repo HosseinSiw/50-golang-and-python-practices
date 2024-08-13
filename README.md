@@ -2,6 +2,6 @@
 
 #### From beginner to advanced
 #### Golang Concurrency practices has been supported
-#### OOP in python has been supperted
+#### OOP in python has been supported
 #### Some machine learning task has been supported
 #### For more details explore files
