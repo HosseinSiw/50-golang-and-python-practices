@@ -50,7 +50,7 @@ func CheckDigits(s string) bool {
 }
 
 func main() {
-	var cardNumber = "5892101519899518"
+	var cardNumber = "XXXX-XXXX-XXXX-XXXX"
 	result := CheckDigits(cardNumber)
 	if result == true {
 		fmt.Println("Its a valid card number, Welcome")
